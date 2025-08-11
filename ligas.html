@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="ligas.css">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="bola.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ligas</title>
+</head>
+
+<body>
+    <header>
+        <!-- Seção de cabeçalho do site -->
+        <button id="darkModeToggle" class="dark-mode-button"><img src="moon.png"></button>
+        <!-- Botão para alternar o modo escuro -->
+        <div class="efeito"></div>
+        <!-- Div estilizada com a classe "efeito", usada para criar um efeito visual -->
+        <nav>
+            <!-- Início da navegação principal -->
+            <div class="dropdown">
+                <!-- Menu suspenso (dropdown) -->
+                <img src="nav.png" class="profile-img" onclick="toggleDropdown()" />
+                <!-- Imagem do menu que ativa o menu suspenso com a função JavaScript "toggleDropdown()" -->
+                <div class="dropdown-menu" id="dropdownMenu">
+                    <!-- Menu suspenso que será exibido ao clicar no ícone acima -->
+                    <a href="home_site.html">Home</a>
+                    <!-- Link para a página inicial -->
+                    <a href="sobre.html">Sobre</a>
+                    <!-- Link para a página "Sobre" -->
+                </div>
+            </div>
+        </nav>
+        <div class="efeito"></div>
+        <div class="logo"></div>
+    </header>
+    <div class="tabelas-grid"><!-- Tabelas retiradas do site "Sofascore" -->
+      <div class="tabela">
+        <iframe id="sofa-standings-embed-1-61627" src="https://widgets.sofascore.com/pt-BR/embed/tournament/1/season/61627/standings/Premier%20League?widgetTitle=Premier%20League&showCompetitionLogo=true" style=height:1123px!important;max-width:768px!important;width:100%!important; frameborder="0" scrolling="no"></iframe>
+        <div style="font-size:12px;font-family:Arial,sans-serif;text-align:left">
+          Classificação fornecida por <a target="_blank" href="https://www.sofascore.com/pt/torneio/futebol/england/premier-league/17#id:61627">Sofascore</a>
+        </div>
+      </div>
+    
+      <div class="tabelas">
+        <iframe id="sofa-standings-embed-36-61643" src="https://widgets.sofascore.com/pt-BR/embed/tournament/36/season/61643/standings/LaLiga?widgetTitle=LaLiga&showCompetitionLogo=true" style=height:1123px!important;max-width:768px!important;width:100%!important; frameborder="0" scrolling="no"></iframe>
+        <div style="font-size:12px;font-family:Arial,sans-serif;text-align:left">
+          Classificação fornecida por <a target="_blank" href="https://www.sofascore.com/pt/torneio/futebol/spain/laliga/8#id:61643">Sofascore</a>
+        </div>
+      </div>
+    
+      <div class="tabelas">
+        <iframe id="sofa-standings-embed-33-63515" src="https://widgets.sofascore.com/pt-BR/embed/tournament/33/season/63515/standings/Serie%20A?widgetTitle=Serie%20A&showCompetitionLogo=true" style=height:1123px!important;max-width:768px!important;width:100%!important; frameborder="0" scrolling="no"></iframe>
+        <div style="font-size:12px;font-family:Arial,sans-serif;text-align:left">
+          Classificação fornecida por <a target="_blank" href="https://www.sofascore.com/pt/torneio/futebol/italy/serie-a/23#id:63515">Sofascore</a>
+        </div>
+      </div>
+    
+      <div class="tabelas">
+        <iframe id="sofa-standings-embed-42-63516" src="https://widgets.sofascore.com/pt-BR/embed/tournament/42/season/63516/standings/Bundesliga?widgetTitle=Bundesliga&showCompetitionLogo=true" style=height:1043px!important;max-width:768px!important;width:100%!important; frameborder="0" scrolling="no"></iframe>
+    <div style="font-size:12px;font-family:Arial,sans-serif;text-align:left">
+      Classificação fornecida por <a target="_blank" href="https://www.sofascore.com/pt/torneio/futebol/germany/bundesliga/35#id:63516">Sofascore</a>
+    </div>
+      </div>
+    
+      <div class="tabelas">
+        <iframe id="sofa-standings-embed-4-61736" src="https://widgets.sofascore.com/pt-BR/embed/tournament/4/season/61736/standings/Ligue%201?widgetTitle=Ligue%201&showCompetitionLogo=true" style=height:1043px!important;max-width:768px!important;width:100%!important; frameborder="0" scrolling="no"></iframe>
+        <div style="font-size:12px;font-family:Arial,sans-serif;text-align:left">
+          Classificação fornecida por <a target="_blank" href="https://www.sofascore.com/pt/torneio/futebol/france/ligue-1/34#id:61736">Sofascore</a>
+        </div>
+      </div>
+    
+      <div class="tabelas">
+        <iframe id="sofa-standings-embed-83-72034" src="https://widgets.sofascore.com/pt-BR/embed/tournament/83/season/72034/standings/Brasileiro%20Serie%20A%202025?widgetTitle=Brasileiro%20Serie%20A%202025&showCompetitionLogo=true" style=height:1123px!important;max-width:768px!important;width:100%!important; frameborder="0" scrolling="no"></iframe>
+        <div style="font-size:12px;font-family:Arial,sans-serif;text-align:left">
+          Classificação fornecida por <a target="_blank" href="https://www.sofascore.com/pt/torneio/futebol/brazil/brasileirao-serie-a/325#id:72034">Sofascore</a>
+        </div>
+      </div>
+    </div>
+    
+ 
+            
+    <footer>
+        <!-- Início do rodapé do site -->
+        <i>
+            <p>NOSSAS REDES SOCIAIS</p>
+        </i>
+        <!-- Texto em itálico -->
+        <div class="instagramimg"></div>
+        <!-- Div estilizada, contendo um ícone do Instagram -->
+        <a href="https://youtube.com/@boladavez-d9v?si=g6fFaYrxE1wsutQI">
+            <div class="youtubeimg"></div>
+        </a>
+        <!-- Div estilizada, contendo um ícone do YouTube -->
+        <div class="twitterimg"></div>
+        <!-- Div estilizada, contendo um ícone do Twitter -->
+        <div class="textofooter">
+            <i>
+                <h1>Anuncie conosco </h1>
+            </i>
+            <!-- Título "Anuncie conosco" estilizado em itálico -->
+        </div>
+        <div class="copyright">
+            <i>
+                <h2>@Copyright 2025 Bola da vez</h2>
+            </i>
+            <!-- Seção de direitos autorais -->
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
